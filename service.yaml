@@ -4,9 +4,10 @@ metadata:
   name: spring-argo
   namespace: default 
 spec:
-  selector: spring-argo
+  selector:
+    app: spring-argo  
   type: NodePort
   ports: 
     - port: 8080
+      targetPort: 8080   
       nodePort: 30090 
-
