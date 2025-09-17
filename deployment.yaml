@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: spring-argo
-        image: makarajr126/spring-app
+        image: makarajr126/spring-deployment
         ports:
         - containerPort: 8080
