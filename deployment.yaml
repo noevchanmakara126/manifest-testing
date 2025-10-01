@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: spring-argo
-        image: solenn9/devops-spring
+        image: makarajr126/spring-app:33
         ports:
         - containerPort: 8080
