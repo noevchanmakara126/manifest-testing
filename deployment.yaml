@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: spring-argo
-        image: makarajr126/spring-app:33
+        image: makarajr126/spring-app:34
         ports:
         - containerPort: 9090
